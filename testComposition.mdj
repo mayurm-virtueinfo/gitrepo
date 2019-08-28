@@ -1475,7 +1475,7 @@
 											"font": "Arial;13;1",
 											"left": 349,
 											"top": 383,
-											"width": 103,
+											"width": 108.0498046875,
 											"height": 13,
 											"text": "FVClass2"
 										},
@@ -1510,7 +1510,7 @@
 									"font": "Arial;13;0",
 									"left": 344,
 									"top": 376,
-									"width": 113,
+									"width": 118.0498046875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFs16b7uankCFY="
@@ -1547,9 +1547,9 @@
 											"font": "Arial;13;0",
 											"left": 349,
 											"top": 406,
-											"width": 103,
+											"width": 108.0498046875,
 											"height": 13,
-											"text": "+attribute1FV2",
+											"text": "+attribute1FV2 {id}",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1564,7 +1564,7 @@
 											"font": "Arial;13;0",
 											"left": 349,
 											"top": 421,
-											"width": 103,
+											"width": 108.0498046875,
 											"height": 13,
 											"text": "+attribute2FV2",
 											"horizontalAlignment": 0
@@ -1573,7 +1573,7 @@
 									"font": "Arial;13;0",
 									"left": 344,
 									"top": 401,
-									"width": 113,
+									"width": 118.0498046875,
 									"height": 38
 								},
 								{
@@ -1588,7 +1588,7 @@
 									"font": "Arial;13;0",
 									"left": 344,
 									"top": 439,
-									"width": 113,
+									"width": 118.0498046875,
 									"height": 10
 								},
 								{
@@ -1628,7 +1628,7 @@
 							"containerChangeable": true,
 							"left": 344,
 							"top": 376,
-							"width": 113,
+							"width": 118.0498046875,
 							"height": 81,
 							"nameCompartment": {
 								"$ref": "AAAAAAFs16b7uanjVME="
@@ -2122,7 +2122,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs16bPAqmhmGM="
 							},
-							"name": "attribute1FV1"
+							"name": "attribute1FV1",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2130,7 +2131,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs16bPAqmhmGM="
 							},
-							"name": "attribute2FV1"
+							"name": "attribute2FV1",
+							"type": ""
 						}
 					]
 				},
@@ -2148,7 +2150,9 @@
 							"_parent": {
 								"$ref": "AAAAAAFs16b7uKnguWs="
 							},
-							"name": "attribute1FV2"
+							"name": "attribute1FV2",
+							"type": "",
+							"isID": true
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2156,7 +2160,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFs16b7uKnguWs="
 							},
-							"name": "attribute2FV2"
+							"name": "attribute2FV2",
+							"type": ""
 						}
 					]
 				}
